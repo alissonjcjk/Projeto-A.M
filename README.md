@@ -2,15 +2,15 @@
 
 ## Descrição do Projeto
 
-Este repositório contém o projeto de Machine Learning para a disciplina [Nome da Disciplina], cujo objetivo é classificar a localização de proteínas em células de levedura com base em atributos bioquímicos. O projeto explora e compara o desempenho de cinco algoritmos de classificação diferentes, com otimização de hiperparâmetros e análise de curvas de aprendizagem.
+Este repositório contém o projeto de Machine Learning para a disciplina [Aprendizado de Máquina], cujo objetivo é classificar a localização de proteínas em células de levedura com base em atributos bioquímicos. O projeto explora e compara o desempenho de cinco algoritmos de classificação diferentes, com otimização de hiperparâmetros e análise de curvas de aprendizagem.
 
 **Dataset:** [Yeast - UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/110/yeast)
 
 ## Membros da Equipe
 
-*   Nome Completo do Membro 1
-*   Nome Completo do Membro 2
-*   Nome Completo do Membro 3
+*   Alisson da Silva Bernadino
+*   Alexsandro José da Silva
+*   Alandrey André da Silva
 
 ## Objetivos
 
@@ -28,7 +28,7 @@ Este repositório contém o projeto de Machine Learning para a disciplina [Nome 
 ## Estrutura do Repositório
 
 *   `yeast.data`: O dataset original utilizado no projeto.
-*   `Projeto_Yeast_Classificacao.ipynb`: O notebook Jupyter/Google Colab contendo todo o código, desde a exploração dos dados até a avaliação final dos modelos e a geração dos gráficos.
+*   `Projeto_AM.ipynb`: O notebook Jupyter/Google Colab contendo todo o código, desde a exploração dos dados até a avaliação final dos modelos e a geração dos gráficos.
 *   `Relatorio_Projeto.pdf`: O relatório final do projeto detalhando a metodologia, resultados e conclusões.
 *   `Apresentacao.pdf`: Os slides utilizados na apresentação do projeto.
 *   `README.md`: Este arquivo.
@@ -37,26 +37,25 @@ Este repositório contém o projeto de Machine Learning para a disciplina [Nome 
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    cd seu-repositorio
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/alissonjcjk/Projeto-A.M.git)
+    cd Projeto-A.M
     ```
+    
 
-2.  **Ambiente e Dependências:**
-    O projeto foi desenvolvido em Python 3. As bibliotecas necessárias estão listadas abaixo. Para recriar o ambiente, você pode instalar as dependências usando `pip`:
-    ```bash
-    pip install numpy pandas scikit-learn matplotlib seaborn
-    ```
+3.  **Ambiente e Dependências:**
+       O Projeto foi feito utilizando o ambiente do Google Colab onde todas as dependências
+       são nativamente instaladas
+    
 
-3.  **Execução:**
-    Abra o notebook `Projeto_Yeast_Classificacao.ipynb` em um ambiente como Jupyter Notebook, JupyterLab ou Google Colab e execute as células em ordem.
+5.  **Execução:**
+    Abra o notebook `Projeto_AM.ipynb` em um ambiente como Jupyter Notebook, JupyterLab ou Google Colab e execute as células em ordem.
 
     [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/seu-usuario/seu-repositorio/blob/main/Projeto_Yeast_Classificacao.ipynb)
     *(Dica: Substitua a URL acima pela URL do seu notebook no GitHub para que o botão "Abrir no Colab" funcione!)*
 
 ## Resumo dos Resultados
 
-*AQUI VOCÊ PODE ADICIONAR UMA BREVE CONCLUSÃO APÓS TERMINAR O PROJETO*
 
-Após a otimização e avaliação, o modelo que apresentou o melhor desempenho geral no conjunto de teste foi o **Random Forest**, atingindo um F1-Score (weighted) de **XX.X%**. Os resultados detalhados para todos os modelos podem ser encontrados no relatório e no notebook.
+Após a otimização e avaliação, o modelo que apresentou o melhor desempenho geral no conjunto de teste foi o **----**, atingindo um F1-Score (weighted) de **----**. Os resultados detalhados para todos os modelos podem ser encontrados no relatório e no notebook.
 
 ---
